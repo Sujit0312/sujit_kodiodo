@@ -1,0 +1,50 @@
+Task 3 Bank 
+
+public class Bank{
+public void Deposite{
+String bname;
+String bbranch;
+int  bacnumber;
+
+public String getbname(){
+ return bname;
+}
+public void setbname(String bname){
+ this.bname= bname;
+}
+
+
+public String getbbranch(){
+ return bbranch;
+}
+public void setbname(String bbranch){
+ this.bbranch= bbranch;
+}
+
+
+public int getbacnumber(){
+ return bacnumber;
+}
+public void setbname(String bacnumber){
+ this.bacnumber= bacnumber;
+}
+}
+
+public class Test{
+public static void main (String [] args{
+
+Scanner sc= New Scanner(System.in);
+System.out.println("Enter bname");
+sc.next int();
+System.out.println("Enter bbranch");
+sc.next int();
+System.out.println("Enter bacnumber");
+}
+}
+
+
+
+
+
+
+
